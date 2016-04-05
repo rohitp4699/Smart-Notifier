@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:text="Water reminder!"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/reminder_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttoncolor"
+            android:text="Reminder"
+            android:textColor="@drawable/buttontextcolor" />
+
+        <Button
+            android:id="@+id/repeated_reminder_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="Repeated Reminder"
+            android:textColor="@drawable/buttontextcolor" />
+
+        <Button
+            android:id="@+id/repeated_reminder_cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttoncolor"
+            android:enabled="false"
+            android:text="Cancel Reminder"
+            android:textColor="@drawable/buttontextcolor" />
+
+        <Button
+            android:id="@+id/start_alarm_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="Start Alarm"
+            android:textColor="@drawable/buttontextcolor" />
+    </LinearLayout>
+
+</ScrollView>
